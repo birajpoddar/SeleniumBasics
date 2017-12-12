@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-12-12 11:29:35Z" end-time="2017-12-12 11:29:46Z" duration="11.289119">
+  <command-line><![CDATA[nunit3-console  /result:TestResult1.xml C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1007" name="SeleniumBasics.dll" fullname="C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:46Z" duration="10.314509" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\packages\NUnit.ConsoleRunner.3.7.0\tools" machine-name="TYSS-4F-023" user="TYSS" user-domain="TYSS-4F-023" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\packages\NUnit.ConsoleRunner.3.7.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10264" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1008" name="SeleniumBasics" fullname="SeleniumBasics" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:46Z" duration="10.295898" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="0-1009" name="Tests" fullname="SeleniumBasics.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:46Z" duration="10.294777" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1004" name="RandomTest" fullname="SeleniumBasics.Tests.RandomTest" classname="SeleniumBasics.Tests.RandomTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:36Z" duration="0.476061" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <output><![CDATA[log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [C:\Users\TYSS\Desktop\Biraj\SeleniumLogs\Selenium.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumLogs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumLogs\Selenium.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1006" name="Random" fullname="SeleniumBasics.Tests.RandomTest.Random" classname="SeleniumBasics.Tests.RandomTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:36Z" duration="0.089749" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="0-1005" name="Random(&quot;1&quot;)" fullname="SeleniumBasics.Tests.RandomTest.Random(&quot;1&quot;)" methodname="Random" classname="SeleniumBasics.Tests.RandomTest" runstate="Runnable" seed="1542492765" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:36Z" duration="0.083705" asserts="0" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1000" name="TestBase" fullname="SeleniumBasics.Tests.TestBase" classname="SeleniumBasics.Tests.TestBase" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:36Z" duration="0.000011" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+        <test-suite type="TestFixture" id="0-1001" name="UnitTest1" fullname="SeleniumBasics.Tests.UnitTest1" classname="SeleniumBasics.Tests.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:46Z" duration="9.812808" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="ParameterizedMethod" id="0-1003" name="OpenBrowser" fullname="SeleniumBasics.Tests.UnitTest1.OpenBrowser" classname="SeleniumBasics.Tests.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:46Z" duration="9.812443" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="0" />
+            </properties>
+            <test-case id="0-1002" name="Open Browser" fullname="SeleniumBasics.Tests.UnitTest1.Open Browser" methodname="OpenBrowser" classname="SeleniumBasics.Tests.UnitTest1" runstate="Runnable" seed="906390418" result="Passed" start-time="2017-12-12 11:29:36Z" end-time="2017-12-12 11:29:46Z" duration="9.812368" asserts="0" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
