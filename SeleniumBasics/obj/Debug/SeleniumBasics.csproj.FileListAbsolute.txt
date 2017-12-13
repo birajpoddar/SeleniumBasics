@@ -34,3 +34,5 @@ C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\obj\Debug\SeleniumBasi
 C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\obj\Debug\SeleniumBasics.dll
 C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\obj\Debug\SeleniumBasics.pdb
 C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\obj\Debug\SeleniumBasics.csprojResolveAssemblyReference.cache
+C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\TeamCity.ServiceMessages.dll
