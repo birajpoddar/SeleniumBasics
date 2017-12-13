@@ -43,7 +43,7 @@ namespace SeleniumBasics.Tests
             Log.Info("RandomTest....");
             Log.Debug("Debug RandomTest....");
 
-            this.ShouldBe(null);
+            //this.ShouldBe(null);
 
             Log.Error("Error RandomTest...");
             Log.Fatal("Fatal RandomTest...");
