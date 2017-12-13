@@ -103,7 +103,12 @@
     </None>
     <None Include="Ghpr.Core.Settings.json" />
     <None Include="Ghpr.NUnit.Settings.json" />
+    <None Include="Logs\Application.log" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Logs\TestLogger.log" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
