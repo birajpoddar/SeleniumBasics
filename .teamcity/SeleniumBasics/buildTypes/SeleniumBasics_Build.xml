@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="4755ad61-664a-40d3-9831-b8bf2fe21ea0" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>Build</name>
+  <description />
+  <settings>
+    <options>
+      <option name="allowExternalStatus" value="true" />
+      <option name="allowPersonalBuildTriggering" value="false" />
+      <option name="buildNumberPattern" value="0.0.0.%build.counter%" />
+      <option name="cleanBuild" value="true" />
+      <option name="showDependenciesChanges" value="true" />
+    </options>
+    <disabled-settings>
+      <setting-ref ref="BUILD_EXT_1" />
+    </disabled-settings>
+    <parameters>
+      <param name="env.EnableNuGetPackageRestore" value="true" />
+      <param name="env.VisualStudioVersion" value="15.0" />
+    </parameters>
+    <build-runners>
+      <runner id="RUNNER_1" name="" type="VS.Solution">
+        <parameters>
+          <param name="build-file-path" value="SeleniumBasics.sln" />
+          <param name="msbuild.prop.Configuration" value="Debug" />
+          <param name="msbuild_version" value="15.0" />
+          <param name="run-platform" value="x86" />
+          <param name="targets" value="Rebuild" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="toolsVersion" value="15.0" />
+          <param name="vs.version" value="vs2017" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_2" name="" type="dotnet.cli">
+        <parameters>
+          <param name="command" value="restore" />
+          <param name="paths" value="SeleniumBasics.sln" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_3" name="" type="dotnet.cli">
+        <parameters>
+          <param name="command" value="build" />
+          <param name="paths" value="SeleniumBasics.sln" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_4" name="Run Tests" type="NUnit">
+        <parameters>
+          <param name="dotNetCoverage.NCover.HTMLReport.File.Sort" value="0" />
+          <param name="dotNetCoverage.NCover.HTMLReport.File.Type" value="1" />
+          <param name="dotNetCoverage.NCover.Reg" value="selected" />
+          <param name="dotNetCoverage.NCover.platformBitness" value="x86" />
+          <param name="dotNetCoverage.NCover.platformVersion" value="v2.0" />
+          <param name="dotNetCoverage.NCover3.Reg" value="selected" />
+          <param name="dotNetCoverage.NCover3.args" value="//ias .*" />
+          <param name="dotNetCoverage.NCover3.platformBitness" value="x86" />
+          <param name="dotNetCoverage.NCover3.platformVersion" value="v2.0" />
+          <param name="dotNetCoverage.NCover3.reporter.executable.args" value="//or FullCoverageReport:Html:{teamcity.report.path}" />
+          <param name="dotNetCoverage.PartCover.Reg" value="selected" />
+          <param name="dotNetCoverage.PartCover.executable" value="%system.teamcity.build.workingDir%" />
+          <param name="dotNetCoverage.PartCover.includes" value="[*]*" />
+          <param name="dotNetCoverage.PartCover.platformBitness" value="NATIVE" />
+          <param name="dotNetCoverage.PartCover.platformVersion" value="NATIVE" />
+          <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
+          <param name="dotNetTestRunner.Type" value="NUnit" />
+          <param name="nunit_enabled" value="checked" />
+          <param name="nunit_environment" value="auto" />
+          <param name="nunit_include" value="SeleniumBasics\bin\Debug\SeleniumBasics.dll" />
+          <param name="nunit_path" value="%teamcity.tool.NUnit.Console.DEFAULT%" />
+          <param name="nunit_platform" value="MSIL" />
+          <param name="nunit_version" value="NUnit-3.0.0" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster" />
+    </vcs-settings>
+    <requirements>
+      <exists id="RQ_1" name="system.teamcity.dotnet.nunitlauncher" />
+    </requirements>
+    <build-triggers>
+      <build-trigger id="vcsTrigger" type="vcsTrigger">
+        <parameters>
+          <param name="groupCheckinsByCommitter" value="true" />
+          <param name="perCheckinTriggering" value="true" />
+          <param name="quietPeriodMode" value="DO_NOT_USE" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
+    <build-extensions>
+      <extension id="BUILD_EXT_1" type="xml-report-plugin">
+        <parameters>
+          <param name="xmlReportParsing.reportDirs" value="%teamcity.agent.home.dir%\temp\buildTmp\*.xml" />
+          <param name="xmlReportParsing.reportType" value="nunit" />
+        </parameters>
+      </extension>
+      <extension id="BUILD_EXT_2" type="VcsLabeling">
+        <parameters>
+          <param name="labelingPattern" value="build-%system.build.number%" />
+          <param name="successfulOnly" value="true" />
+          <param name="vcsRootId" value="__ALL__" />
+        </parameters>
+      </extension>
+      <extension id="JetBrains.AssemblyInfo" type="JetBrains.AssemblyInfo">
+        <parameters />
+      </extension>
+    </build-extensions>
+    <cleanup />
+  </settings>
+</build-type>
+
