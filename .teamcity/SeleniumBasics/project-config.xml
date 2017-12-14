@@ -35,6 +35,18 @@
         <param name="showChanges" value="true" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_5" type="IssueTracker">
+      <parameters>
+        <param name="authType" value="accesstoken" />
+        <param name="name" value="de-labs/SeleniumBasics" />
+        <param name="pattern" value="#(\d+)" />
+        <param name="repository" value="https://github.com/de-labs/SeleniumBasics" />
+        <param name="secure:accessToken" value="credentialsJSON:e2a08bdb-0dbb-4b6d-8f22-0618127b756d" />
+        <param name="secure:password" value="" />
+        <param name="type" value="GithubIssues" />
+        <param name="username" value="" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup />
 </project>
