@@ -6,7 +6,6 @@
     <options>
       <option name="allowExternalStatus" value="true" />
       <option name="allowPersonalBuildTriggering" value="false" />
-      <option name="artifactRules" value="SeleniumBasics\bin\Debug\SeleniumBasics.dll" />
       <option name="buildNumberPattern" value="0.0.0.%build.counter%" />
       <option name="cleanBuild" value="true" />
       <option name="showDependenciesChanges" value="true" />
