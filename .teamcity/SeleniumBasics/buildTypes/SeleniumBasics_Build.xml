@@ -106,6 +106,9 @@
       <extension id="JetBrains.AssemblyInfo" type="JetBrains.AssemblyInfo">
         <parameters />
       </extension>
+      <extension id="perfmon" type="perfmon">
+        <parameters />
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
