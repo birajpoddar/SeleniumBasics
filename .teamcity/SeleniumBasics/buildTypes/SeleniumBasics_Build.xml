@@ -109,6 +109,15 @@
       <extension id="perfmon" type="perfmon">
         <parameters />
       </extension>
+      <extension id="BUILD_EXT_3" type="commit-status-publisher">
+        <parameters>
+          <param name="github_authentication_type" value="token" />
+          <param name="github_host" value="https://api.github.com" />
+          <param name="publisherId" value="githubStatusPublisher" />
+          <param name="secure:github_access_token" value="credentialsJSON:e72a5ffc-3824-4a59-a369-1a51febfd1c1" />
+          <param name="vcsRootId" value="SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
