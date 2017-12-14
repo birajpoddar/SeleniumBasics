@@ -10,6 +10,7 @@
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="url" value="https://github.com/de-labs/SeleniumBasics.git" />
   <param name="useAlternates" value="true" />
+  <param name="userForTags" value="biraj.poddar@gmail.com" />
   <param name="username" value="de-labs" />
   <param name="usernameStyle" value="EMAIL" />
 </vcs-root>
