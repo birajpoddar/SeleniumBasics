@@ -6,7 +6,7 @@
     <options>
       <option name="allowExternalStatus" value="true" />
       <option name="allowPersonalBuildTriggering" value="false" />
-      <option name="artifactRules" value="SeleniumBasics\bin\Debug\log4net.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\nunit.framework.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\SeleniumBasics.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\Shouldly.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\WebDriver.dll =&gt; Tests&#xA;SeleniumBasics\Logs\Application.log =&gt; Logs&#xA;SeleniumBasics\Logs\TestLogger.log =&gt; Logs" />
+      <option name="artifactRules" value="SeleniumBasics\bin\Debug\log4net.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\nunit.framework.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\SeleniumBasics.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\Shouldly.dll =&gt; Tests&#xA;SeleniumBasics\bin\Debug\WebDriver.dll =&gt; Tests&#xA;SeleniumBasics\Logs\*.log =&gt; Logs" />
       <option name="buildNumberPattern" value="0.0.0.%build.counter%" />
       <option name="cleanBuild" value="true" />
       <option name="showDependenciesChanges" value="true" />
