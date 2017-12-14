@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="0138834b-f002-4be7-adb9-8071d7dbfb12" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
   <name>SeleniumBasics</name>
+  <description>Basic NUnit Seleninium based Test project with logging and reporting capabilities using Teamcity</description>
   <parameters />
   <project-extensions>
     <extension id="PROJECT_EXT_3" type="project-graphs">
