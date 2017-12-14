@@ -104,7 +104,10 @@
         </parameters>
       </extension>
       <extension id="JetBrains.AssemblyInfo" type="JetBrains.AssemblyInfo">
-        <parameters />
+        <parameters>
+          <param name="assembly-format" value="%build.number%" />
+          <param name="patch-global-assembly-info" value="true" />
+        </parameters>
       </extension>
       <extension id="perfmon" type="perfmon">
         <parameters />
