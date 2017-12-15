@@ -18,7 +18,7 @@
     </disabled-settings>
     <parameters>
       <param name="env.EnableNuGetPackageRestore" value="true" />
-      <param name="env.NUnit3ConsolePath" value="%teamcity.agent.work.dir%\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" />
+      <param name="env.NUnit3ConsolePath" value="%teamcity.agent.work.dir%\packages\NUnit.ConsoleRunner*\tools\nunit3-console.exe" />
       <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit.1.2.1\tools\ReportUnit.exe" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
