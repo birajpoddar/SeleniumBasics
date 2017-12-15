@@ -86,8 +86,7 @@
           <param name="script.content"><![CDATA[echo %env.ReportUnitPath%
 echo %env.NUnitReportXMLs%
 
-%env.ReportUnitPath% %env.NUnitReportXMLs%]]></param>
-          <param name="teamcity.build.workingDir" value="SeleniumBasics/Reports" />
+%env.ReportUnitPath% %env.NUnitReportXMLs% %env.ReportsDirectoryPath%]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
