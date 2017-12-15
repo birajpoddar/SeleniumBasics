@@ -50,7 +50,9 @@
     </extension>
     <extension id="PROJECT_EXT_6" type="project-graphs">
       <parameters>
+        <param name="defaultFilters" value="" />
         <param name="format" value="text" />
+        <param name="hideFilters" value="" />
         <param name="series"><![CDATA[[
   {
     "type": "valueType",
@@ -144,7 +146,7 @@
   }
 ]]]></param>
         <param name="seriesTitle" value="Serie" />
-        <param name="title" value="Chart title" />
+        <param name="title" value="Full Chart" />
       </parameters>
     </extension>
   </project-extensions>
