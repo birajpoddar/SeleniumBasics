@@ -70,7 +70,7 @@
           <param name="dotNetCoverage.PartCover.platformVersion" value="v4.0" />
           <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
           <param name="dotNetTestRunner.Type" value="NUnit" />
-          <param name="nunit_command_line" value="--result:TestResults\v%build.number%.xml" />
+          <param name="nunit_command_line" value="--result:%env.NUnitReportXMLs%\%env.BuildNumber%.xml" />
           <param name="nunit_enabled" value="checked" />
           <param name="nunit_environment" value="auto" />
           <param name="nunit_include" value="SeleniumBasics\bin\Debug\SeleniumBasics.dll" />
