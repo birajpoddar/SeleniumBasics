@@ -1,1 +1,1 @@
-..\..\packages\NUnit.ConsoleRunner.3.7.0\tools\ReportUnit.exe .
+..\..\packages\ReportUnit.1.2.1\tools\ReportUnit.exe .
