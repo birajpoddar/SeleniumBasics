@@ -18,7 +18,7 @@
       <setting-ref ref="BUILD_EXT_1" />
     </disabled-settings>
     <parameters>
-      <param name="env.BuildNumber" value="Beta Build-v%build.number%" />
+      <param name="env.BuildNumber" value="build-v%build.number%" />
       <param name="env.EnableNuGetPackageRestore" value="true" />
       <param name="env.NUnitReportXMLs" value="%teamcity.agent.work.dir%\SeleniumBasics\Reports\xml" />
       <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit*\tools\ReportUnit.exe" />
