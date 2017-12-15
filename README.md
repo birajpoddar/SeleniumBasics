@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Project Page of SeleniumBasics 
 
 You can use the [editor on GitHub](https://github.com/de-labs/SeleniumBasics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

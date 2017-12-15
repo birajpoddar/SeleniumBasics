@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="4755ad61-664a-40d3-9831-b8bf2fe21ea0" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="4755ad61-664a-40d3-9831-b8bf2fe21ea0" paused="true" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
   <name>Build</name>
   <description />
   <settings>
     <options>
       <option name="allowExternalStatus" value="true" />
       <option name="allowPersonalBuildTriggering" value="false" />
-      <option name="artifactRules" value="SeleniumBasics\bin\Debug\log4net.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\nunit.framework.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\SeleniumBasics.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\Shouldly.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\WebDriver.dll =&gt; bin&#xA;SeleniumBasics\Logs\*.log =&gt; Logs&#xA;packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe =&gt; bin&#xA;packages\NUnit.ConsoleRunner.3.7.0\tools\ReportUnit.exe =&gt; bin" />
+      <option name="artifactRules" value="SeleniumBasics\bin\Debug\log4net.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\nunit.framework.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\SeleniumBasics.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\Shouldly.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\WebDriver.dll =&gt; bin&#xA;SeleniumBasics\Logs\*.log =&gt; Logs&#xA;packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe =&gt; bin&#xA;packages\NUnit.ConsoleRunner.3.7.0\tools\ReportUnit.exe =&gt; bin&#xA;SeleniumBasics\bin\Debug\TestResults\v*.xml =&gt; bin\xml&#xA;SeleniumBasics\Reports\*.html =&gt; Reports" />
       <option name="buildConfigurationType" value="DEPLOYMENT" />
       <option name="buildNumberPattern" value="0.0.0.%build.counter%" />
       <option name="cleanBuild" value="true" />
@@ -18,7 +18,7 @@
     </disabled-settings>
     <parameters>
       <param name="env.EnableNuGetPackageRestore" value="true" />
-      <param name="env.NUnit3ConsolePath" value="%teamcity.agent.work.dir%\packages\NUnit.ConsoleRunner*\tools\nunit3-console.exe" />
+      <param name="env.NUnitReportXMLs" value="%teamcity.agent.work.dir%\SeleniumBasics\bin\Debug\TestResults" />
       <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit*\tools\ReportUnit.exe" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
@@ -68,7 +68,7 @@
           <param name="dotNetCoverage.PartCover.platformVersion" value="v4.0" />
           <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
           <param name="dotNetTestRunner.Type" value="NUnit" />
-          <param name="nunit_command_line" value="--result:%build.vcs.number%.xml" />
+          <param name="nunit_command_line" value="--result:TestResults\v%build.number%%.xml" />
           <param name="nunit_enabled" value="checked" />
           <param name="nunit_environment" value="auto" />
           <param name="nunit_include" value="SeleniumBasics\bin\Debug\SeleniumBasics.dll" />
@@ -76,6 +76,14 @@
           <param name="nunit_platform" value="MSIL" />
           <param name="nunit_version" value="NUnit-3.0.0" />
           <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_5" name="Report Generation" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="%env.ReportUnitPath% %env.NUnitReportXMLs%" />
+          <param name="teamcity.build.workingDir" value="SeleniumBasics/Reports" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
     </build-runners>
@@ -103,7 +111,7 @@
       </extension>
       <extension id="BUILD_EXT_2" type="VcsLabeling">
         <parameters>
-          <param name="labelingPattern" value="build-%system.build.number%" />
+          <param name="labelingPattern" value="build-v%system.build.number%" />
           <param name="successfulOnly" value="true" />
           <param name="vcsRootId" value="__ALL__" />
         </parameters>
@@ -127,6 +135,12 @@
         </parameters>
       </extension>
     </build-extensions>
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="SeleniumBasics_Build" cleanDestination="false">
+        <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
+        <artifact sourcePath="bin\TestResults\*.xml =&gt; bin\TestResults&#xD;&#xA;Logs\*.log =&gt; Logs" />
+      </dependency>
+    </artifact-dependencies>
     <cleanup />
   </settings>
 </build-type>
