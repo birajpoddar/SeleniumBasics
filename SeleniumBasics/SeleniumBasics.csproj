@@ -106,9 +106,7 @@
     </None>
     <None Include="Reports\RunTests.bat" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Reports\xml\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Logs\TestLogger.log" />
   </ItemGroup>
