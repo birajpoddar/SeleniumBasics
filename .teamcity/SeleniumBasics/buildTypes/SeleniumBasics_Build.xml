@@ -17,8 +17,8 @@
       <setting-ref ref="BUILD_EXT_1" />
     </disabled-settings>
     <parameters>
-      <param name="ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit.1.2.1\tools\ReportUnit.exe" />
       <param name="env.EnableNuGetPackageRestore" value="true" />
+      <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit.1.2.1\tools\ReportUnit.exe" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
     <build-runners>
