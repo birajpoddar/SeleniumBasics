@@ -21,7 +21,7 @@
       <param name="env.BuildNumber" value="build-v%build.number%" />
       <param name="env.EnableNuGetPackageRestore" value="true" />
       <param name="env.NUnitReportXMLs" value="%teamcity.build.workingDir%\SeleniumBasics\Reports" />
-      <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit*\tools\ReportUnit.exe" />
+      <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit.1.2.1\tools\ReportUnit.exe" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
     <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3, RUNNER_4, RUNNER_5, RUNNER_6">
