@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="0138834b-f002-4be7-adb9-8071d7dbfb12" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>SeleniumBasics</name>
+  <description>Basic NUnit Seleninium based Test project with logging and reporting capabilities using Teamcity</description>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_3" type="project-graphs">
+      <parameters>
+        <param name="defaultFilters" value="" />
+        <param name="format" value="percent" />
+        <param name="hideFilters" value="" />
+        <param name="series"><![CDATA[[
+  {
+    "type": "valueType",
+    "title": "Build Duration (all stages)",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "BuildDuration"
+  },
+  {
+    "type": "valueType",
+    "title": "BuildTestStatus",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "BuildTestStatus"
+  }
+]]]></param>
+        <param name="seriesTitle" value="Duration Time" />
+        <param name="title" value="Build Time and Status" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_4" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster" />
+        <param name="showChanges" value="true" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_5" type="IssueTracker">
+      <parameters>
+        <param name="authType" value="accesstoken" />
+        <param name="name" value="de-labs/SeleniumBasics" />
+        <param name="pattern" value="#(\d+)" />
+        <param name="repository" value="https://github.com/de-labs/SeleniumBasics" />
+        <param name="secure:accessToken" value="credentialsJSON:e2a08bdb-0dbb-4b6d-8f22-0618127b756d" />
+        <param name="secure:password" value="" />
+        <param name="type" value="GithubIssues" />
+        <param name="username" value="" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
