@@ -80,7 +80,7 @@
       </runner>
       <runner id="RUNNER_5" name="Report Generation" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="%env.ReportUnitPath%" />
+          <param name="script.content" value="%env.ReportUnitPath% %env.NUnitReportXMLs%" />
           <param name="teamcity.build.workingDir" value="SeleniumBasics/Reports" />
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
