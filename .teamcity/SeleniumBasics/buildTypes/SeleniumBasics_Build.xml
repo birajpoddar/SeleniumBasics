@@ -62,12 +62,13 @@
           <param name="dotNetCoverage.NCover3.platformVersion" value="v2.0" />
           <param name="dotNetCoverage.NCover3.reporter.executable.args" value="//or FullCoverageReport:Html:{teamcity.report.path}" />
           <param name="dotNetCoverage.PartCover.Reg" value="selected" />
-          <param name="dotNetCoverage.PartCover.executable" value="%system.teamcity.build.workingDir%" />
+          <param name="dotNetCoverage.PartCover.executable" value="%system.teamcity.build.workingDir%\" />
           <param name="dotNetCoverage.PartCover.includes" value="[*]*" />
           <param name="dotNetCoverage.PartCover.platformBitness" value="NATIVE" />
-          <param name="dotNetCoverage.PartCover.platformVersion" value="NATIVE" />
+          <param name="dotNetCoverage.PartCover.platformVersion" value="v4.0" />
           <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
           <param name="dotNetTestRunner.Type" value="NUnit" />
+          <param name="nunit_command_line" value="--result:%build.vcs.number%" />
           <param name="nunit_enabled" value="checked" />
           <param name="nunit_environment" value="auto" />
           <param name="nunit_include" value="SeleniumBasics\bin\Debug\SeleniumBasics.dll" />
