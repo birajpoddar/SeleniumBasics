@@ -18,7 +18,7 @@
     </disabled-settings>
     <parameters>
       <param name="env.EnableNuGetPackageRestore" value="true" />
-      <param name="env.NUnit3ConsolePath" value="%teamcity.agent.work.dir%\packages\NUnit.ConsoleRunner*\tools\nunit3-console.exe" />
+      <param name="env.NUnitReportXMLs" value="%teamcity.agent.work.dir%\SeleniumBasics\bin\Debug" />
       <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit*\tools\ReportUnit.exe" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
