@@ -24,7 +24,7 @@
       <param name="env.ReportUnitPath" value="%teamcity.agent.work.dir%\packages\ReportUnit*\tools\ReportUnit.exe" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
-    <build-runners>
+    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3, RUNNER_4, RUNNER_5, RUNNER_6">
       <runner id="RUNNER_1" name="" type="VS.Solution">
         <parameters>
           <param name="build-file-path" value="SeleniumBasics.sln" />
@@ -81,6 +81,14 @@
         </parameters>
       </runner>
       <runner id="RUNNER_5" name="Report Generation" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="%env.ReportUnitPath% %env.NUnitReportXMLs%" />
+          <param name="teamcity.build.workingDir" value="SeleniumBasics/Reports" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_6" name="Report Generation (1)" type="simpleRunner">
         <parameters>
           <param name="script.content" value="%env.ReportUnitPath% %env.NUnitReportXMLs%" />
           <param name="teamcity.build.workingDir" value="SeleniumBasics/Reports" />
