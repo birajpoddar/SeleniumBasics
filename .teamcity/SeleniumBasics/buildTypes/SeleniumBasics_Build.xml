@@ -78,6 +78,14 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_5" name="Report Generation" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="%env.ReportUnitPath%" />
+          <param name="teamcity.build.workingDir" value="SeleniumBasics/Reports" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster" />
