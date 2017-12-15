@@ -48,6 +48,105 @@
         <param name="username" value="" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_6" type="project-graphs">
+      <parameters>
+        <param name="format" value="text" />
+        <param name="series"><![CDATA[[
+  {
+    "type": "valueType",
+    "title": "Artifacts Size",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "VisibleArtifactsSize"
+  },
+  {
+    "type": "valueType",
+    "title": "Build Artifacts Publishing Time",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:artifactsPublishing"
+  },
+  {
+    "type": "valueType",
+    "title": "Build Checkout Time",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:sourcesUpdate"
+  },
+  {
+    "type": "valueType",
+    "title": "Build Duration (all stages)",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "BuildDuration"
+  },
+  {
+    "type": "valueType",
+    "title": "Build Duration (excluding Checkout Time)",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "BuildDurationNetTime"
+  },
+  {
+    "type": "valueType",
+    "title": "buildFinishing",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:buildFinishing"
+  },
+  {
+    "type": "valueType",
+    "title": "buildStepRUNNER_1",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:buildStepRUNNER_1"
+  },
+  {
+    "type": "valueType",
+    "title": "buildStepRUNNER_2",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:buildStepRUNNER_2"
+  },
+  {
+    "type": "valueType",
+    "title": "buildStepRUNNER_3",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:buildStepRUNNER_3"
+  },
+  {
+    "type": "valueType",
+    "title": "buildStepRUNNER_4",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:buildStepRUNNER_4"
+  },
+  {
+    "type": "valueType",
+    "title": "BuildTestStatus",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "BuildTestStatus"
+  },
+  {
+    "type": "valueType",
+    "title": "firstStepPreparation",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "buildStageDuration:firstStepPreparation"
+  },
+  {
+    "type": "valueType",
+    "title": "Success Rate",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "SuccessRate"
+  },
+  {
+    "type": "valueType",
+    "title": "Time Spent in Queue",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "TimeSpentInQueue"
+  },
+  {
+    "type": "valueType",
+    "title": "Total Artifacts Size",
+    "sourceBuildTypeId": "SeleniumBasics_Build",
+    "key": "ArtifactsSize"
+  }
+]]]></param>
+        <param name="seriesTitle" value="Serie" />
+        <param name="title" value="Chart title" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup />
 </project>
