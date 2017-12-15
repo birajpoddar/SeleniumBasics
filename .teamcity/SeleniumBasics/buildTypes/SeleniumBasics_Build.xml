@@ -85,6 +85,7 @@
         <parameters>
           <param name="script.content"><![CDATA[echo %env.ReportUnitPath%
 echo %env.NUnitReportXMLs%
+echo %env.ReportsDirectoryPath%
 
 %env.ReportUnitPath% %env.NUnitReportXMLs% %env.ReportsDirectoryPath%]]></param>
           <param name="teamcity.step.mode" value="default" />
