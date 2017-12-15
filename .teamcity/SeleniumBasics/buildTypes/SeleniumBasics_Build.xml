@@ -135,6 +135,12 @@
         </parameters>
       </extension>
     </build-extensions>
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="SeleniumBasics_Build" cleanDestination="false">
+        <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
+        <artifact sourcePath="bin\TestResults\*.xml =&gt; bin\TestResults&#xD;&#xA;Logs\*.log =&gt; Logs" />
+      </dependency>
+    </artifact-dependencies>
     <cleanup />
   </settings>
 </build-type>
