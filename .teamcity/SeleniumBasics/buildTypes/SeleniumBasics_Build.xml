@@ -7,8 +7,10 @@
       <option name="allowExternalStatus" value="true" />
       <option name="allowPersonalBuildTriggering" value="false" />
       <option name="artifactRules" value="SeleniumBasics\bin\Debug\log4net.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\nunit.framework.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\SeleniumBasics.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\Shouldly.dll =&gt; bin&#xA;SeleniumBasics\bin\Debug\WebDriver.dll =&gt; bin&#xA;SeleniumBasics\Logs\*.log =&gt; Logs&#xA;packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe =&gt; bin&#xA;packages\NUnit.ConsoleRunner.3.7.0\tools\ReportUnit.exe =&gt; bin" />
+      <option name="buildConfigurationType" value="DEPLOYMENT" />
       <option name="buildNumberPattern" value="0.0.0.%build.counter%" />
       <option name="cleanBuild" value="true" />
+      <option name="maximumNumberOfBuilds" value="1" />
       <option name="showDependenciesChanges" value="true" />
     </options>
     <disabled-settings>
