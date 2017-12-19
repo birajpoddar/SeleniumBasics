@@ -144,7 +144,7 @@ echo %env.ReportsDirectoryPath%
     <artifact-dependencies>
       <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="SeleniumBasics_Build" cleanDestination="false">
         <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
-        <artifact sourcePath="bin\xml\*.xml =&gt; bin\xml&#xD;&#xA;Logs\*.log =&gt; Logs" />
+        <artifact sourcePath="Reports\xml\*.xml =&gt; Reports\xml&#xD;&#xA;Logs\*.log =&gt; Logs" />
       </dependency>
     </artifact-dependencies>
     <cleanup />
