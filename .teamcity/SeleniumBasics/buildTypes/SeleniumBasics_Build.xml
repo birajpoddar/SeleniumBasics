@@ -143,7 +143,7 @@ echo %env.ReportsDirectoryPath%
     <artifact-dependencies>
       <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="SeleniumBasics_Build" cleanDestination="false">
         <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
-        <artifact sourcePath="Reports\xml\*.xml =&gt; SeleniumBasics\Reports\xml&#xD;&#xA;Logs\*.log =&gt; SeleniumBasics\Logs" />
+        <artifact sourcePath="Reports\xml\*.xml =&gt; SeleniumBasics\Reports&#xD;&#xA;Logs\*.log =&gt; SeleniumBasics\Logs" />
       </dependency>
     </artifact-dependencies>
     <cleanup />
