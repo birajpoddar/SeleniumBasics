@@ -130,3 +130,487 @@ log4net: Created Appender [LogFileAppender]
 log4net: Adding appender named [LogFileAppender] to logger [root].
 log4net: Hierarchy Threshold []
 log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]
+log4net: log4net assembly [log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a]. Loaded from [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\log4net.dll]. (.NET Runtime [4.0.30319.42000] on Microsoft Windows NT 10.0.14393.0)
+log4net: defaultRepositoryType [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository for assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] Loaded From [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll]
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] does not have a RepositoryAttribute specified.
+log4net: Assembly [SeleniumBasics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null] using repository [log4net-default-repository] and repository type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: Creating repository [log4net-default-repository] using type [log4net.Repository.Hierarchy.Hierarchy]
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\bin\Debug\SeleniumBasics.dll.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [LogFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [..\..\Logs\TestLogger.log]
+log4net: Setting Property [LockingModel] to object [log4net.Appender.FileAppender+MinimalLock]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [10]
+log4net: Setting Property [MaximumFileSize] to String value [2MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%d{dd-MMM-yy HH:mm:ss,ff} [%-5p] %5L-%-50stacktracedetail %m%n]
+log4net: Converter [d] Option [dd-MMM-yy HH:mm:ss,ff] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [p] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [L] Option [] Format [min=5,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [-] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [stacktracedetail] Option [] Format [min=50,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [m] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [n] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Users\TYSS\Desktop\Biraj\SeleniumBasics\SeleniumBasics\Logs\TestLogger.log] append [True]
+log4net: Created Appender [LogFileAppender]
+log4net: Adding appender named [LogFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+log4net: Shutdown called on Hierarchy [log4net-default-repository]

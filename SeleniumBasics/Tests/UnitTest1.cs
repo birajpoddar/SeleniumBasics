@@ -23,9 +23,23 @@ namespace SeleniumBasics.Tests
             driver.Url = "http://www.google.com";
             Log.Info("Browsing Google");
 
-            driver.Title.ShouldContain("Google");
+            try
+            {
+                driver.Title.ShouldContain("Googlee");
+            }
+            catch(Exception ex)
+            {
+                Log.Fatal("Title did not match, Test EXITING...");
+                throw new Exception("Title did not match", ex);                
+            }
+            finally
+            {
+                driver.Quit();
+            }
 
-            driver.Quit();
+            Log.Info("Title Matched");
+
+            //driver.Quit();
         }
     }
 
@@ -37,9 +51,10 @@ namespace SeleniumBasics.Tests
 
         }
 
-        [TestCase("1")]
+        //[TestCase("1"), TestCase("2")]
+        [TestCaseSource("Source")]
         public void Random(string invalid)
-        {          
+        {
             Log.Info("RandomTest....");
             Log.Debug("Debug RandomTest....");
 
@@ -49,5 +64,7 @@ namespace SeleniumBasics.Tests
             Log.Fatal("Fatal RandomTest...");
             Log.Warn("Warn Random Test...");
         }
+
+        static string[] Source = { "1", "2", "3" };
     }
 }
