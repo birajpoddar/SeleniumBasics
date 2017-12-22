@@ -149,11 +149,11 @@
         <param name="title" value="Full Chart" />
       </parameters>
     </extension>
-    <extension id="PROJECT_EXT_7" type="ReportTab">
+    <extension id="PROJECT_EXT_8" type="ReportTab">
       <parameters>
         <param name="buildTypeId" value="SeleniumBasics_Build" />
-        <param name="revisionRuleName" value="lastSuccessful" />
-        <param name="revisionRuleRevision" value="latest.lastSuccessful" />
+        <param name="revisionRuleName" value="lastFinished" />
+        <param name="revisionRuleRevision" value="latest.lastFinished" />
         <param name="startPage" value="Reports/Index.html" />
         <param name="title" value="Test Report" />
         <param name="type" value="ProjectReportTab" />
