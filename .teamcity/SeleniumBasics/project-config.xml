@@ -159,6 +159,13 @@
         <param name="type" value="ProjectReportTab" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_9" type="ReportTab">
+      <parameters>
+        <param name="startPage" value="SeleniumBasics.dll.CodeAnalysisLog.xml" />
+        <param name="title" value="Code Coverage" />
+        <param name="type" value="BuildReportTab" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup />
 </project>
