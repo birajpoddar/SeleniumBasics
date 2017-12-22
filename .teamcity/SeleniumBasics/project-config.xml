@@ -42,7 +42,7 @@
         <param name="name" value="de-labs/SeleniumBasics" />
         <param name="pattern" value="#(\d+)" />
         <param name="repository" value="https://github.com/de-labs/SeleniumBasics" />
-        <param name="secure:accessToken" value="credentialsJSON:e2a08bdb-0dbb-4b6d-8f22-0618127b756d" />
+        <param name="secure:accessToken" value="credentialsJSON:e72a5ffc-3824-4a59-a369-1a51febfd1c1" />
         <param name="secure:password" value="" />
         <param name="type" value="GithubIssues" />
         <param name="username" value="" />
@@ -147,6 +147,16 @@
 ]]]></param>
         <param name="seriesTitle" value="Serie" />
         <param name="title" value="Full Chart" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_7" type="ReportTab">
+      <parameters>
+        <param name="buildTypeId" value="SeleniumBasics_Build" />
+        <param name="revisionRuleName" value="lastSuccessful" />
+        <param name="revisionRuleRevision" value="latest.lastSuccessful" />
+        <param name="startPage" value="Reports/Index.html" />
+        <param name="title" value="Test Report" />
+        <param name="type" value="ProjectReportTab" />
       </parameters>
     </extension>
   </project-extensions>
