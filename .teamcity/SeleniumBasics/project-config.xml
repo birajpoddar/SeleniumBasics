@@ -4,9 +4,9 @@
   <description>Basic NUnit Seleninium based Test project with logging and reporting capabilities using Teamcity</description>
   <parameters />
   <project-extensions>
-    <extension id="PROJECT_EXT_10" type="ReportTab">
+    <extension id="PROJECT_EXT_11" type="ReportTab">
       <parameters>
-        <param name="startPage" value="bin/analysis/SeleniumBasics.dll.CodeAnalysisLog.xml" />
+        <param name="startPage" value="Reports/analysis/SeleniumBasics.dll.CodeAnalysisLog.xml" />
         <param name="title" value="Code Coverage" />
         <param name="type" value="BuildReportTab" />
       </parameters>
