@@ -102,8 +102,8 @@ echo %env.ReportsDirectoryPath%
       <build-trigger id="vcsTrigger" type="vcsTrigger">
         <parameters>
           <param name="enableQueueOptimization" value="true" />
-          <param name="groupCheckinsByCommitter" value="true" />
-          <param name="quietPeriodMode" value="DO_NOT_USE" />
+          <param name="quietPeriodMode" value="USE_DEFAULT" />
+          <param name="triggerRules" value="-:user=biraj.poddar;root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=TeamCity change in*:**" />
         </parameters>
       </build-trigger>
     </build-triggers>
