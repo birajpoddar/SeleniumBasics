@@ -4,6 +4,13 @@
   <description>Basic NUnit Seleninium based Test project with logging and reporting capabilities using Teamcity</description>
   <parameters />
   <project-extensions>
+    <extension id="PROJECT_EXT_11" type="ReportTab">
+      <parameters>
+        <param name="startPage" value="Reports/analysis/SeleniumBasics.dll.CodeAnalysisLog.xml" />
+        <param name="title" value="Code Coverage" />
+        <param name="type" value="BuildReportTab" />
+      </parameters>
+    </extension>
     <extension id="PROJECT_EXT_3" type="project-graphs">
       <parameters>
         <param name="defaultFilters" value="" />
@@ -149,11 +156,11 @@
         <param name="title" value="Full Chart" />
       </parameters>
     </extension>
-    <extension id="PROJECT_EXT_7" type="ReportTab">
+    <extension id="PROJECT_EXT_8" type="ReportTab">
       <parameters>
         <param name="buildTypeId" value="SeleniumBasics_Build" />
-        <param name="revisionRuleName" value="lastSuccessful" />
-        <param name="revisionRuleRevision" value="latest.lastSuccessful" />
+        <param name="revisionRuleName" value="lastFinished" />
+        <param name="revisionRuleRevision" value="latest.lastFinished" />
         <param name="startPage" value="Reports/Index.html" />
         <param name="title" value="Test Report" />
         <param name="type" value="ProjectReportTab" />

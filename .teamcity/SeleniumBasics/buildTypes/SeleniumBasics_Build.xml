@@ -24,7 +24,7 @@
       <param name="env.ReportsDirectoryPath" value="%teamcity.build.workingDir%\SeleniumBasics\Reports" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
-    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3, RUNNER_4, RUNNER_5, RUNNER_6">
+    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3, RUNNER_4, RUNNER_5">
       <runner id="RUNNER_1" name="" type="VS.Solution">
         <parameters>
           <param name="build-file-path" value="SeleniumBasics.sln" />
@@ -102,8 +102,9 @@ echo %env.ReportsDirectoryPath%
       <build-trigger id="vcsTrigger" type="vcsTrigger">
         <parameters>
           <param name="enableQueueOptimization" value="true" />
-          <param name="groupCheckinsByCommitter" value="true" />
-          <param name="quietPeriodMode" value="DO_NOT_USE" />
+          <param name="quietPeriodMode" value="USE_DEFAULT" />
+          <param name="triggerRules"><![CDATA[-:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=TeamCity change in*:**
++:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=VS Build -*:**]]></param>
         </parameters>
       </build-trigger>
     </build-triggers>
@@ -142,7 +143,7 @@ echo %env.ReportsDirectoryPath%
     </build-extensions>
     <artifact-dependencies>
       <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="SeleniumBasics_Build" cleanDestination="false">
-        <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
+        <revisionRule name="lastFinished" revision="latest.lastFinished" />
         <artifact sourcePath="Reports\xml\*.xml =&gt; SeleniumBasics\Reports&#xD;&#xA;Logs\*.log =&gt; SeleniumBasics\Logs" />
       </dependency>
     </artifact-dependencies>
