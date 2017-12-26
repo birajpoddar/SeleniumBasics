@@ -29,7 +29,7 @@ namespace SeleniumBasics.Tests
             }
             catch(Exception ex)
             {
-                Log.Fatal("Title did not match, Test EXITING...");
+                Log.Fatal("Title did not match, EXITING Test...");
                 throw new Exception("Title did not match", ex);                
             }
             finally
@@ -55,6 +55,8 @@ namespace SeleniumBasics.Tests
         [TestCaseSource("Source")]
         public void Random(string invalid)
         {
+            Console.WriteLine(invalid);
+
             Log.Info("RandomTest....");
             Log.Debug("Debug RandomTest....");
 
