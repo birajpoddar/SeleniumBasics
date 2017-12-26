@@ -25,7 +25,7 @@ namespace SeleniumBasics.Tests
 
             try
             {
-                driver.Title.ShouldContain("Googlee");
+                driver.Title.ShouldContain("Google");
             }
             catch(Exception ex)
             {
