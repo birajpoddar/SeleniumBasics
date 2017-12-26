@@ -104,7 +104,8 @@ echo %env.ReportsDirectoryPath%
           <param name="enableQueueOptimization" value="true" />
           <param name="quietPeriodMode" value="USE_DEFAULT" />
           <param name="triggerRules"><![CDATA[-:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=TeamCity change in*:**
-+:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=Build -*:**]]></param>
++:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=Build -*:**
++:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment= 	Merge branch 'master' of https://github.com/de-labs/SeleniumBasics:**]]></param>
         </parameters>
       </build-trigger>
     </build-triggers>
