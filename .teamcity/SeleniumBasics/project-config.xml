@@ -40,7 +40,7 @@
         <param name="credentialsStorageType" value="credentialsJSON" />
         <param name="enabled" value="true" />
         <param name="rootId" value="SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster" />
-        <param name="showChanges" value="false" />
+        <param name="showChanges" value="true" />
       </parameters>
     </extension>
     <extension id="PROJECT_EXT_5" type="IssueTracker">
