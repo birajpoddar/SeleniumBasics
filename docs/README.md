@@ -1,6 +1,6 @@
 ## Welcome to Project Page of SeleniumBasics 
 
-(https://ci.appveyor.com/api/projects/status/4i30cxi0vu54j2by?svg=true "")
+[![Build status](https://ci.appveyor.com/api/projects/status/4i30cxi0vu54j2by?svg=true)](https://ci.appveyor.com/project/de-labs/seleniumbasics)
 
 You can use the [editor on GitHub](https://github.com/de-labs/SeleniumBasics/edit/master/docs/README.md) to maintain and preview the content for your website in Markdown files.
 
