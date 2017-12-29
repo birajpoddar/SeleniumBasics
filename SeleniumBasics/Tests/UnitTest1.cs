@@ -3,9 +3,14 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using Shouldly;
+using NUnit.Allure.Attributes;
+//using Ghpr.NUnit.Attributes;
+using Allure;
 
 namespace SeleniumBasics.Tests
 {
+    
+    [AllureFixture]
     [TestFixture]
     public class UnitTest1 : TestBase
     {
@@ -14,6 +19,8 @@ namespace SeleniumBasics.Tests
             //Log.Info("Something....");
         }
 
+        //[GhprTest]
+        [AllureTest("Browser Open"), AllureStory("Selenium Test")]
         [TestCase(TestName = "Open Browser"), Order(0)]
         public void OpenBrowser()
         {
@@ -43,6 +50,7 @@ namespace SeleniumBasics.Tests
         }
     }
 
+    [AllureFixture]
     [TestFixture]
     public class RandomTest : TestBase
     {
@@ -51,7 +59,8 @@ namespace SeleniumBasics.Tests
 
         }
 
-        //[TestCase("1"), TestCase("2")]
+        //[GhprTest]
+        [AllureTest("Random test to log"), AllureStory("Random Test")]
         [TestCaseSource("Source")]
         public void Random(string invalid)
         {
