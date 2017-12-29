@@ -1,6 +1,8 @@
 ## Welcome to Project Page of SeleniumBasics 
 
-You can use the [editor on GitHub](https://github.com/de-labs/SeleniumBasics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build status](https://ci.appveyor.com/api/projects/status/4i30cxi0vu54j2by?svg=true)](https://ci.appveyor.com/project/de-labs/seleniumbasics)
+
+You can use the [editor on GitHub](https://github.com/de-labs/SeleniumBasics/edit/master/docs/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
