@@ -24,7 +24,17 @@
       <param name="env.ReportsDirectoryPath" value="%teamcity.build.workingDir%\SeleniumBasics\Reports" />
       <param name="env.VisualStudioVersion" value="15.0" />
     </parameters>
-    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3, RUNNER_4, RUNNER_5">
+    <build-runners order="RUNNER_6, RUNNER_1, RUNNER_2, RUNNER_3, RUNNER_4, RUNNER_5">
+      <runner id="RUNNER_6" name="NuGet Package Installation" type="jb.nuget.installer">
+        <parameters>
+          <param name="nuget.path" value="%teamcity.tool.NuGet.CommandLine.DEFAULT%" />
+          <param name="nuget.updatePackages" value="true" />
+          <param name="nuget.updatePackages.mode" value="sln" />
+          <param name="nuget.use.restore" value="restore" />
+          <param name="sln.path" value="SeleniumBasics.sln" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
       <runner id="RUNNER_1" name="" type="VS.Solution">
         <parameters>
           <param name="build-file-path" value="SeleniumBasics.sln" />
@@ -89,16 +99,6 @@ echo %env.ReportsDirectoryPath%
 %env.ReportUnitPath% %env.NUnitReportXMLs% %env.ReportsDirectoryPath%]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
-        </parameters>
-      </runner>
-      <runner id="RUNNER_6" name="NuGet Package Installation" type="jb.nuget.installer">
-        <parameters>
-          <param name="nuget.path" value="%teamcity.tool.NuGet.CommandLine.DEFAULT%" />
-          <param name="nuget.updatePackages" value="true" />
-          <param name="nuget.updatePackages.mode" value="sln" />
-          <param name="nuget.use.restore" value="restore" />
-          <param name="sln.path" value="SeleniumBasics.sln" />
-          <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
     </build-runners>
