@@ -94,6 +94,7 @@ echo %env.ReportsDirectoryPath%
       <runner id="RUNNER_6" name="NuGet Package Installation" type="jb.nuget.installer">
         <parameters>
           <param name="nuget.path" value="%teamcity.tool.NuGet.CommandLine.DEFAULT%" />
+          <param name="nuget.updatePackages" value="true" />
           <param name="nuget.updatePackages.mode" value="sln" />
           <param name="nuget.use.restore" value="restore" />
           <param name="sln.path" value="SeleniumBasics.sln" />
