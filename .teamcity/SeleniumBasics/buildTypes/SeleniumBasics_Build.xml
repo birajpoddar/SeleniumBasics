@@ -114,8 +114,8 @@ echo %env.ReportsDirectoryPath%
         <parameters>
           <param name="enableQueueOptimization" value="true" />
           <param name="quietPeriodMode" value="USE_DEFAULT" />
-          <param name="triggerRules"><![CDATA[-:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=TeamCity change in*:**
-+:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment=Build -*:**]]></param>
+          <param name="triggerRules"><![CDATA[-:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment="TeamCity change in"*:**
++:root=SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster;comment="Build -"*:**]]></param>
         </parameters>
       </build-trigger>
     </build-triggers>
