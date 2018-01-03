@@ -11,6 +11,8 @@
       <option name="buildNumberPattern" value="0.0.0.%build.counter%" />
       <option name="cleanBuild" value="true" />
       <option name="maximumNumberOfBuilds" value="1" />
+      <option name="shouldFailBuildIfTestsFailed" value="false" />
+      <option name="shouldFailBuildOnAnyErrorMessage" value="true" />
       <option name="showDependenciesChanges" value="true" />
     </options>
     <disabled-settings>
