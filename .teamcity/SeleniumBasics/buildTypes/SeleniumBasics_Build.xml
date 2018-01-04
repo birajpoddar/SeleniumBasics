@@ -105,7 +105,7 @@ echo %env.ReportsDirectoryPath%
       <runner id="RUNNER_7" name="Allure Report" type="allureReportGeneratorRunner">
         <parameters>
           <param name="allure.report.path.prefix" value="allure-report" />
-          <param name="allure.result.directory" value="\SeleniumBasics\bin\allure-results" />
+          <param name="allure.result.directory" value="\SeleniumBasics\bin\Debug\allure-results" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
