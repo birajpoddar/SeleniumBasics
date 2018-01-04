@@ -102,6 +102,13 @@ echo %env.ReportsDirectoryPath%
           <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
+      <runner id="RUNNER_7" name="Allure Report" type="allureReportGeneratorRunner">
+        <parameters>
+          <param name="allure.report.path.prefix" value="allure-report" />
+          <param name="allure.result.directory" value="allure-results" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="SeleniumBasics_HttpsGithubComDeLabsSeleniumBasicsGitRefsHeadsMaster" />
