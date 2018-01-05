@@ -5,4 +5,4 @@ notifications:
 mono: latest
 script: 
   - msbuild build /p:Configuration=Release SeleniumBasics.sln
-  - mono ./packages/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./SeleniumBasics/bin/Release/SeleniumBasics.dll
+ # - mono ./packages/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./SeleniumBasics/bin/Release/SeleniumBasics.dll
