@@ -8,3 +8,6 @@ Use of Log4Net and reporting server
 
 
 [![Tests](http://img.shields.io/appveyor/tests/de-labs/SeleniumBasics.svg?style=for-the-badge&logo=appveyor&colorB=bf72ff)](https://ci.appveyor.com/project/de-labs/seleniumbasics/build/tests)
+
+### Travis CI Build Status
+[![TravisCI build](https://img.shields.io/travis/de-labs/SeleniumBasics.svg?style=for-the-badge)](https://travis-ci.org/de-labs/seleniumbasics)   [![Coveralls coverage](https://img.shields.io/coveralls/github/de-labs/SeleniumBasics.svg?style=for-the-badge)](https://travis-ci.org/de-labs/seleniumbasics)
