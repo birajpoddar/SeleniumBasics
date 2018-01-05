@@ -4,3 +4,5 @@ dotnet: 1.1.5
 script: 
   - dotnet build /p:Configuration=Release SeleniumBasics.sln
   - dotnet ./packages/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./SeleniumBasics/bin/Release/SeleniumBasics.dll
+ notifications:
+    slack: de-labs:Sch4Zt9sxr8XiPi7ltIFSm5p
