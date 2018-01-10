@@ -3,6 +3,11 @@ solution: SeleniumBasics.sln
 notifications:
   slack: de-labs:Sch4Zt9sxr8XiPi7ltIFSm5p
 mono: latest
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore SeleniumBasics.sln
 script: 
-  - msbuild build /p:Configuration=Release SeleniumBasics.sln
- # - mono ./packages/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./SeleniumBasics/bin/Release/SeleniumBasics.dll
+  - msbuild /p:Configuration=Release SeleniumBasics.sln
+after_script:
+  - nunit-console SeleniumBasics/bin/Release/SeleniumBasics.dll
